@@ -80,7 +80,7 @@ def create_adjacency_matrix(nodes, edges):
 
 def get_vertex_list(file_path):
     """
-    Получает список вершин и их координат из файла GraphML.
+    
     """
     graph_data = parse_graphml(file_path)
     if graph_data is None:
